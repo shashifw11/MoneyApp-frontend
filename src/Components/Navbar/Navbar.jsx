@@ -67,14 +67,14 @@ export const Navbar = ({user}) => {
           <a className="nav-link disabled">Disabled</a>
         </li> */}
             </ul>
-            <form onSubmit={(e) => { e.preventDefault() }} className="d-flex">
+            {/* <form onSubmit={(e) => { e.preventDefault() }} className="d-flex">
               <input onChange={(e) => {
                 setText(e.target.value)
               }} className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button value="submit" style={{ background: "tomato", marginRight: "50px", }} className="btn btn-outline-success" type="submit" onClick={() => {
                 handleChange(text);
               }}>Search</button>
-            </form>
+            </form> */}
             <div>
               <Link to="/cart">
                 <button style={{ marginRight: "20px", border: "none", background: "#1f80e0", width: "100px" }}>
@@ -82,9 +82,9 @@ export const Navbar = ({user}) => {
                   </ShoppingCartOutlinedIcon> <span style={{ fontSize: "20px", padding: "", color: "white", fontWeight: "bolder", borderRadius: "50%", background: "" }}>{cartcount}</span>
                 </button></Link>
 
-              <Link to="/login"><Button style={{ marginTop: "10px", color: "white", border: "1px solid white" }} variant="outlined" color="secondary">
+              {/* <Link to="/login"><Button style={{ marginTop: "10px", color: "white", border: "1px solid white" }} variant="outlined" color="secondary">
                 {user ? "Sign out" : "Login"}
-              </Button></Link>
+              </Button></Link> */}
             </div>
           </div>
         </div>

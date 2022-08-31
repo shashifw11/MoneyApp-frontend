@@ -26,9 +26,9 @@ function App() {
     <div className="App">
      <Navbar user = {user}/>
     <Routes> 
-      <Route  path = "/login" element = {<Login handleUser = {handleUser}/>}/>
+      {/* <Route  path = "/login" element = {<Login handleUser = {handleUser}/>}/>
       <Route  path = "/signup" element = {<SignUP/>}/>
-      
+       */}
       <Route  path = "/" element = {<Product/>}/>
 
       <Route  path = "/jewlery" element = {<Jewlery/>}/>
@@ -37,9 +37,9 @@ function App() {
       <Route  path = "/mens" element = {<Mens/>}/>
       <Route  path = "/:id"  element = {<ProductDetails/>} />
       <Route  path = "/cart"  element = {<Cart/>} />
-      <Route  path =  "/checkout" element = {<Checkout/>}/>
+      {/* <Route  path =  "/checkout" element = {<Checkout/>}/>
       <Route  path = "/payment" element = {<Payment/>}/>
-      <Route  path = "/success" element = {<Success/>}/>
+      <Route  path = "/success" element = {<Success/>}/> */}
     </Routes>
     </div>
   );

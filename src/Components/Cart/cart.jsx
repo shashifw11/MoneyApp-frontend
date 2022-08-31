@@ -89,7 +89,7 @@ export const Cart = () => {
 
         <div style={{float: "right", maxWidth: "650px" }}>
           <Button style = {{ marginTop : "10px", padding :  "5px" , width : "250px" , marginLeft : "50px"}} variant="danger">Total : $ {total}</Button>
-          <Link to = "/checkout"><Button style = {{ marginTop : "10px", width : "250px" , marginLeft : "20px"}} variant="primary" size="lg" active>
+          <Link to = ""><Button style = {{ marginTop : "10px", width : "250px" , marginLeft : "20px"}} variant="primary" size="lg" active>
     Proceed To Checkout
   </Button></Link>
         </div>
