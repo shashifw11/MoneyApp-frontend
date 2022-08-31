@@ -82,9 +82,9 @@ export const Navbar = ({user}) => {
                   </ShoppingCartOutlinedIcon> <span style={{ fontSize: "20px", padding: "", color: "white", fontWeight: "bolder", borderRadius: "50%", background: "" }}>{cartcount}</span>
                 </button></Link>
 
-              {/* <Link to="/login"><Button style={{ marginTop: "10px", color: "white", border: "1px solid white" }} variant="outlined" color="secondary">
+              <Link to=""><Button style={{ marginTop: "10px", color: "white", border: "1px solid white" }} variant="outlined" color="secondary">
                 {user ? "Sign out" : "Login"}
-              </Button></Link> */}
+              </Button></Link>
             </div>
           </div>
         </div>
